@@ -34,7 +34,7 @@ border-radius: 50%;
     
     }
     .caja2:hover{
-        background-color: rgba(150, 145, 82, 0.719);
+        background-color: rgba(41, 41, 41, 0.719);
         transition: 0.5s;
         opacity: 1;
         border-color: #ffffff;
