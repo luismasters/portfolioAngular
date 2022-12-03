@@ -1,0 +1,8 @@
+
+<div class="container text-center bg-white">
+<div class="element" *ngFor="let element of progres" >
+    <img src={{element.url}} alt="" class="logo">
+    <p>{{element.nombre}}</p>
+    <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:{{element.porcentaje}}">
+    </div>
+</div></div>
