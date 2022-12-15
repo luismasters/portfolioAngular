@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { EstudiosComponent } from './estudios/estudios.component';
+import { ProgressbarComponent } from './progressbar/progressbar.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { EstudiosComponent } from './estudios/estudios.component';
     AppComponent,
     NavbarComponent,
     BannerComponent,
-    EstudiosComponent
+    EstudiosComponent,
+    ProgressbarComponent
   ],
   imports: [   
      CarouselModule,
